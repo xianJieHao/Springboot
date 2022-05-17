@@ -11,6 +11,7 @@ public class HelloController {
 	public String index(Model model){
 		model.addAttribute("title", "测试");
 		model.addAttribute("atext", "这个冬天不太Cool");
+		model.addAttribute("test","文人离线");
 		return "index";
 	}
 }
